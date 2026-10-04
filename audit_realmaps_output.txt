@@ -1,0 +1,6 @@
+T10 street_main: label errors 0/1000, unique-path windows 14
+T10 dao_main: label errors 0/1000, unique-path windows 21
+T10 street_train: label errors 0/1000, unique-path windows 9
+T11 city split disjoint and complete: True
+T12 deterministic generation: True
+ALL PASS

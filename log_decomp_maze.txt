@@ -1,0 +1,25 @@
+families pool_maze_main.npz 335.71622371673584
+families pool_maze_fresh.npz 1174.1716403961182
+0.02 PTRM fixed K                     risk 7.19 viol 100.0 cov 100.0 nfe 96.0 empty 0.00
+0.02 PTRM + Q-head + LTT              risk 0.41 viol 1.3 cov 16.7 nfe 51.2 empty 0.47
+0.02 PTRM + majority + LTT            risk 1.02 viol 0.3 cov 75.0 nfe 38.7 empty 0.04
+0.02 TRM + halt + LTT                 risk 0.97 viol 2.0 cov 55.4 nfe 4.0 empty 0.00
+0.02 PTRM + halt + LTT                risk 0.30 viol 0.0 cov 16.2 nfe 3.8 empty 0.13
+0.02 PTRM + halt + majority + LTT     risk 1.12 viol 1.3 cov 83.6 nfe 37.6 empty 0.01
+0.02 e-process, no halting (T=16)     risk 0.00 viol 0.0 cov 0.0 nfe 0.0 empty 1.00
+0.02 e-process, fixed depth T=4       risk 1.20 viol 2.7 cov 78.1 nfe 28.8 empty 0.06
+0.02 CHART without LTT (plug-in)      risk 2.12 viol 62.7 cov 91.4 nfe 23.4 empty 0.00
+0.02 CHART                            risk 1.16 viol 0.0 cov 83.2 nfe 29.3 empty 0.03
+0.02 CHART, Bonferroni                risk 0.92 viol 0.0 cov 83.2 nfe 30.9 empty 0.00
+0.05 PTRM fixed K                     risk 7.19 viol 100.0 cov 100.0 nfe 96.0 empty 0.00
+0.05 PTRM + Q-head + LTT              risk 3.13 viol 6.3 cov 77.2 nfe 89.3 empty 0.07
+0.05 PTRM + majority + LTT            risk 3.15 viol 0.0 cov 90.9 nfe 25.3 empty 0.00
+0.05 TRM + halt + LTT                 risk 2.94 viol 0.3 cov 75.2 nfe 3.6 empty 0.06
+0.05 PTRM + halt + LTT                risk 1.16 viol 0.0 cov 33.9 nfe 3.8 empty 0.07
+0.05 PTRM + halt + majority + LTT     risk 3.55 viol 1.3 cov 94.8 nfe 18.9 empty 0.00
+0.05 e-process, no halting (T=16)     risk 3.39 viol 5.0 cov 63.6 nfe 133.9 empty 0.16
+0.05 e-process, fixed depth T=4       risk 3.77 viol 5.7 cov 91.7 nfe 19.0 empty 0.00
+0.05 CHART without LTT (plug-in)      risk 4.48 viol 0.0 cov 96.6 nfe 12.4 empty 0.00
+0.05 CHART                            risk 3.57 viol 0.3 cov 94.8 nfe 16.8 empty 0.00
+0.05 CHART, Bonferroni                risk 3.31 viol 0.0 cov 94.4 nfe 17.9 empty 0.00
+saved 1440.3441679477692

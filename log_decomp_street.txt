@@ -1,0 +1,25 @@
+families pool_street_main.npz 246.8097620010376
+families pool_street_fresh.npz 737.0070149898529
+0.02 PTRM fixed K                     risk 4.43 viol 100.0 cov 100.0 nfe 96.0 empty 0.00
+0.02 PTRM + Q-head + LTT              risk 0.57 viol 2.0 cov 37.6 nfe 65.3 empty 0.32
+0.02 PTRM + majority + LTT            risk 1.10 viol 0.0 cov 92.3 nfe 18.9 empty 0.01
+0.02 TRM + halt + LTT                 risk 1.22 viol 2.7 cov 91.6 nfe 2.2 empty 0.01
+0.02 PTRM + halt + LTT                risk 0.83 viol 0.3 cov 79.7 nfe 2.1 empty 0.02
+0.02 PTRM + halt + majority + LTT     risk 1.20 viol 3.0 cov 94.2 nfe 17.3 empty 0.02
+0.02 e-process, no halting (T=16)     risk 0.00 viol 0.0 cov 0.0 nfe 0.0 empty 1.00
+0.02 e-process, fixed depth T=4       risk 1.26 viol 3.7 cov 84.3 nfe 27.0 empty 0.08
+0.02 CHART without LTT (plug-in)      risk 2.05 viol 64.0 cov 98.5 nfe 7.6 empty 0.00
+0.02 CHART                            risk 1.26 viol 4.0 cov 93.9 nfe 15.2 empty 0.02
+0.02 CHART, Bonferroni                risk 0.97 viol 0.0 cov 93.8 nfe 17.2 empty 0.01
+0.05 PTRM fixed K                     risk 4.43 viol 0.0 cov 100.0 nfe 96.0 empty 0.00
+0.05 PTRM + Q-head + LTT              risk 3.42 viol 0.0 cov 85.3 nfe 88.3 empty 0.08
+0.05 PTRM + majority + LTT            risk 3.24 viol 0.3 cov 98.6 nfe 8.5 empty 0.00
+0.05 TRM + halt + LTT                 risk 2.67 viol 0.0 cov 98.4 nfe 2.2 empty 0.01
+0.05 PTRM + halt + LTT                risk 2.83 viol 0.0 cov 96.9 nfe 2.2 empty 0.03
+0.05 PTRM + halt + majority + LTT     risk 3.09 viol 0.0 cov 100.0 nfe 2.6 empty 0.00
+0.05 e-process, no halting (T=16)     risk 3.86 viol 2.3 cov 88.9 nfe 95.7 empty 0.01
+0.05 e-process, fixed depth T=4       risk 3.81 viol 2.7 cov 97.9 nfe 10.9 empty 0.00
+0.05 CHART without LTT (plug-in)      risk 3.11 viol 0.0 cov 100.0 nfe 2.2 empty 0.00
+0.05 CHART                            risk 3.10 viol 0.0 cov 100.0 nfe 2.4 empty 0.00
+0.05 CHART, Bonferroni                risk 3.04 viol 0.0 cov 99.9 nfe 3.0 empty 0.00
+saved 1011.1501290798187

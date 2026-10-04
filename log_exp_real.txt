@@ -1,0 +1,138 @@
+P1 det street [0.902 0.945 0.945 0.942 0.934 0.93  0.925 0.917 0.916 0.918 0.911 0.911
+ 0.908 0.906 0.908 0.905]
+  TRM (det.) T=6           err 0.0700 nfe 6.0
+  TRM (det.) T=16          err 0.0953 nfe 16.0
+  TRM+ACT halt             err 0.0547 nfe 1.2
+  TRM+stability halt       err 0.0310 nfe 2.2
+  PTRM K=16 s=0.25         err 0.0500 nfe 96.0
+  Plurality K=16 s=0.25    err 0.0607 nfe 96.0
+  pass@16 s=0.25           err 0.0417 nfe 96.0
+  PTRM K=16 s=0.5          err 0.0480 nfe 96.0
+  Plurality K=16 s=0.5     err 0.0590 nfe 96.0
+  pass@16 s=0.5            err 0.0360 nfe 96.0
+  PTRM K=16 s=1.0          err 0.0463 nfe 96.0
+  Plurality K=16 s=1.0     err 0.0520 nfe 96.0
+  pass@16 s=1.0            err 0.0243 nfe 96.0
+families 1169.8146109580994 N 9000
+0.01 CHART          risk 0.0034 viol 0.033 cov 0.482 nfe 13.1 empty 0.47
+0.01 CHART-mix      risk 0.0035 viol 0.040 cov 0.456 nfe 12.6 empty 0.50
+0.01 CHART-bonf     risk 0.0004 viol 0.000 cov 0.056 nfe 1.8 empty 0.94
+0.01 CHART-naive    risk 0.0111 viol 0.630 cov 0.953 nfe 15.6 empty 0.00
+0.01 CHART-static   risk 0.0037 viol 0.020 cov 0.601 nfe 17.0 empty 0.29
+0.01 TRM+Q-LTT      risk 0.0035 viol 0.063 cov 0.329 nfe 4.0 empty 0.34
+0.01 TRM+Q-naive    risk 0.0097 viol 0.390 cov 0.724 nfe 6.0 empty 0.00
+0.01 PTRM+Q-LTT     risk 0.0013 viol 0.007 cov 0.098 nfe 41.6 empty 0.57
+0.01 Stop: r-agree  risk 0.0024 viol 0.027 cov 0.293 nfe 5.4 empty 0.68
+0.01 Stop: SPRT     risk 0.0036 viol 0.030 cov 0.519 nfe 17.1 empty 0.42
+0.01 Stop: AC-Beta  risk 0.0002 viol 0.020 cov 0.019 nfe 0.3 empty 0.98
+0.01 Stop: fixed-K  risk 0.0038 viol 0.027 cov 0.567 nfe 17.6 empty 0.37
+0.02 CHART          risk 0.0126 viol 0.040 cov 0.939 nfe 15.2 empty 0.02
+0.02 CHART-mix      risk 0.0125 viol 0.027 cov 0.945 nfe 16.5 empty 0.02
+0.02 CHART-bonf     risk 0.0097 viol 0.000 cov 0.938 nfe 17.2 empty 0.01
+0.02 CHART-naive    risk 0.0205 viol 0.640 cov 0.985 nfe 7.6 empty 0.00
+0.02 CHART-static   risk 0.0110 viol 0.000 cov 0.923 nfe 18.9 empty 0.01
+0.02 TRM+Q-LTT      risk 0.0124 viol 0.043 cov 0.737 nfe 5.3 empty 0.11
+0.02 TRM+Q-naive    risk 0.0196 viol 0.410 cov 0.895 nfe 6.0 empty 0.00
+0.02 PTRM+Q-LTT     risk 0.0057 viol 0.020 cov 0.376 nfe 65.3 empty 0.32
+0.02 Stop: r-agree  risk 0.0123 viol 0.037 cov 0.906 nfe 12.8 empty 0.05
+0.02 Stop: SPRT     risk 0.0127 viol 0.033 cov 0.940 nfe 14.8 empty 0.02
+0.02 Stop: AC-Beta  risk 0.0105 viol 0.027 cov 0.732 nfe 10.4 empty 0.25
+0.02 Stop: fixed-K  risk 0.0120 viol 0.030 cov 0.942 nfe 17.3 empty 0.02
+0.05 CHART          risk 0.0310 viol 0.000 cov 1.000 nfe 2.4 empty 0.00
+0.05 CHART-mix      risk 0.0310 viol 0.000 cov 1.000 nfe 2.5 empty 0.00
+0.05 CHART-bonf     risk 0.0304 viol 0.000 cov 0.999 nfe 3.0 empty 0.00
+0.05 CHART-naive    risk 0.0311 viol 0.000 cov 1.000 nfe 2.2 empty 0.00
+0.05 CHART-static   risk 0.0324 viol 0.003 cov 0.986 nfe 8.5 empty 0.00
+0.05 TRM+Q-LTT      risk 0.0420 viol 0.103 cov 0.967 nfe 6.0 empty 0.00
+0.05 TRM+Q-naive    risk 0.0501 viol 0.483 cov 0.979 nfe 6.0 empty 0.00
+0.05 PTRM+Q-LTT     risk 0.0342 viol 0.000 cov 0.853 nfe 88.3 empty 0.08
+0.05 Stop: r-agree  risk 0.0253 viol 0.000 cov 0.992 nfe 4.7 empty 0.00
+0.05 Stop: SPRT     risk 0.0225 viol 0.000 cov 0.987 nfe 4.9 empty 0.00
+0.05 Stop: AC-Beta  risk 0.0255 viol 0.000 cov 0.996 nfe 5.1 empty 0.00
+0.05 Stop: fixed-K  risk 0.0309 viol 0.000 cov 1.000 nfe 2.6 empty 0.00
+0.1 CHART          risk 0.0311 viol 0.000 cov 1.000 nfe 2.2 empty 0.00
+0.1 CHART-mix      risk 0.0311 viol 0.000 cov 1.000 nfe 2.2 empty 0.00
+0.1 CHART-bonf     risk 0.0311 viol 0.000 cov 1.000 nfe 2.2 empty 0.00
+0.1 CHART-naive    risk 0.0311 viol 0.000 cov 1.000 nfe 2.2 empty 0.00
+0.1 CHART-static   risk 0.0469 viol 0.000 cov 1.000 nfe 4.0 empty 0.00
+0.1 TRM+Q-LTT      risk 0.0475 viol 0.000 cov 0.762 nfe 4.6 empty 0.23
+0.1 TRM+Q-naive    risk 0.0622 viol 0.000 cov 0.994 nfe 6.0 empty 0.00
+0.1 PTRM+Q-LTT     risk 0.0339 viol 0.000 cov 0.785 nfe 85.8 empty 0.11
+0.1 Stop: r-agree  risk 0.0253 viol 0.000 cov 0.992 nfe 4.6 empty 0.00
+0.1 Stop: SPRT     risk 0.0225 viol 0.000 cov 0.987 nfe 4.9 empty 0.00
+0.1 Stop: AC-Beta  risk 0.0255 viol 0.000 cov 0.996 nfe 5.1 empty 0.00
+0.1 Stop: fixed-K  risk 0.0311 viol 0.000 cov 1.000 nfe 2.2 empty 0.00
+P4 [{'lo': 0, 'hi': 0, 'n': 4512, 'nfe': 2.146276595744681, 'cov': 1.0, 'risk': 0.024157801418439716, 'cov_q': 0.9722960992907801, 'err_det': 0.060726950354609927}, {'lo': 1, 'hi': 2, 'n': 1561, 'nfe': 2.2216527866752083, 'cov': 1.0, 'risk': 0.03459320948110186, 'cov_q': 0.9647661755285074, 'err_det': 0.07495195387572069}, {'lo': 3, 'hi': 4, 'n': 1259, 'nfe': 2.176330420969023, 'cov': 1.0, 'risk': 0.024622716441620333, 'cov_q': 0.9737887212073074, 'err_det': 0.06115965051628276}, {'lo': 5, 'hi': 8, 'n': 1159, 'nfe': 2.2605694564279553, 'cov': 1.0, 'risk': 0.05004314063848145, 'cov_q': 0.9646246764452114, 'err_det': 0.0811044003451251}, {'lo': 9, 'hi': 100, 'n': 509, 'nfe': 2.341846758349705, 'cov': 1.0, 'risk': 0.05697445972495088, 'cov_q': 0.9430255402750491, 'err_det': 0.08447937131630648}]
+P5 0.02 CHART 0 {'risk': 0.0103, 'viol': 0.03, 'cov': 0.9402, 'nfe': 15.7824, 'empty': 0.0133}
+P5 0.02 CHART 50 {'risk': 0.0, 'viol': 0.0, 'cov': 0.0, 'nfe': 0.0, 'empty': 1.0}
+P5 0.02 CHART 100 {'risk': 0.0, 'viol': 0.0, 'cov': 0.0, 'nfe': 0.0, 'empty': 1.0}
+P5 0.02 CHART 250 {'risk': 0.0016, 'viol': 0.0067, 'cov': 0.1722, 'nfe': 3.2701, 'empty': 0.8167}
+P5 0.02 CHART 500 {'risk': 0.0053, 'viol': 0.0433, 'cov': 0.4752, 'nfe': 7.7715, 'empty': 0.5}
+P5 0.02 CHART 1000 {'risk': 0.0086, 'viol': 0.03, 'cov': 0.8317, 'nfe': 12.8976, 'empty': 0.1267}
+P5 0.02 CHART-bonf 0 {'risk': 0.0076, 'viol': 0.0, 'cov': 0.942, 'nfe': 18.1912, 'empty': 0.0}
+P5 0.02 CHART-bonf 50 {'risk': 0.0, 'viol': 0.0, 'cov': 0.0, 'nfe': 0.0, 'empty': 1.0}
+P5 0.02 CHART-bonf 100 {'risk': 0.0, 'viol': 0.0, 'cov': 0.0, 'nfe': 0.0, 'empty': 1.0}
+P5 0.02 CHART-bonf 250 {'risk': 0.0, 'viol': 0.0, 'cov': 0.0, 'nfe': 0.0, 'empty': 1.0}
+P5 0.02 CHART-bonf 500 {'risk': 0.0008, 'viol': 0.0, 'cov': 0.0997, 'nfe': 2.0992, 'empty': 0.8933}
+P5 0.02 CHART-bonf 1000 {'risk': 0.0057, 'viol': 0.0, 'cov': 0.9066, 'nfe': 17.7881, 'empty': 0.03}
+P5 0.02 TRM+Q-LTT 0 {'risk': 0.0142, 'viol': 0.1733, 'cov': 0.7439, 'nfe': 5.5, 'empty': 0.0833}
+P5 0.02 TRM+Q-LTT 50 {'risk': 0.0, 'viol': 0.0, 'cov': 0.0, 'nfe': 0.0, 'empty': 1.0}
+P5 0.02 TRM+Q-LTT 100 {'risk': 0.0, 'viol': 0.0, 'cov': 0.0, 'nfe': 0.0, 'empty': 1.0}
+P5 0.02 TRM+Q-LTT 250 {'risk': 0.0033, 'viol': 0.04, 'cov': 0.1797, 'nfe': 1.4, 'empty': 0.7667}
+P5 0.02 TRM+Q-LTT 500 {'risk': 0.0038, 'viol': 0.0333, 'cov': 0.235, 'nfe': 2.1, 'empty': 0.65}
+P5 0.02 TRM+Q-LTT 1000 {'risk': 0.0064, 'viol': 0.0467, 'cov': 0.3889, 'nfe': 3.28, 'empty': 0.4533}
+P5 0.02 PTRM+Q-LTT 0 {'risk': 0.0051, 'viol': 0.0133, 'cov': 0.3496, 'nfe': 58.24, 'empty': 0.3933}
+P5 0.02 PTRM+Q-LTT 50 {'risk': 0.0, 'viol': 0.0, 'cov': 0.0, 'nfe': 0.0, 'empty': 1.0}
+P5 0.02 PTRM+Q-LTT 100 {'risk': 0.0, 'viol': 0.0, 'cov': 0.0, 'nfe': 0.0, 'empty': 1.0}
+P5 0.02 PTRM+Q-LTT 250 {'risk': 0.0025, 'viol': 0.02, 'cov': 0.1439, 'nfe': 17.92, 'empty': 0.8133}
+P5 0.02 PTRM+Q-LTT 500 {'risk': 0.0046, 'viol': 0.0167, 'cov': 0.3378, 'nfe': 62.08, 'empty': 0.3533}
+P5 0.02 PTRM+Q-LTT 1000 {'risk': 0.0056, 'viol': 0.0367, 'cov': 0.3449, 'nfe': 60.16, 'empty': 0.3733}
+P5 0.05 CHART 0 {'risk': 0.0369, 'viol': 0.01, 'cov': 0.9997, 'nfe': 2.4478, 'empty': 0.0}
+P5 0.05 CHART 50 {'risk': 0.0, 'viol': 0.0, 'cov': 0.0, 'nfe': 0.0, 'empty': 1.0}
+P5 0.05 CHART 100 {'risk': 0.0036, 'viol': 0.0, 'cov': 0.1961, 'nfe': 2.2874, 'empty': 0.7967}
+P5 0.05 CHART 250 {'risk': 0.0174, 'viol': 0.0067, 'cov': 0.7642, 'nfe': 7.3295, 'empty': 0.2167}
+P5 0.05 CHART 500 {'risk': 0.0246, 'viol': 0.0033, 'cov': 0.963, 'nfe': 7.4325, 'empty': 0.02}
+P5 0.05 CHART 1000 {'risk': 0.0298, 'viol': 0.0033, 'cov': 0.9906, 'nfe': 5.2376, 'empty': 0.0}
+P5 0.05 CHART-bonf 0 {'risk': 0.0362, 'viol': 0.0033, 'cov': 0.9985, 'nfe': 3.2661, 'empty': 0.0}
+P5 0.05 CHART-bonf 50 {'risk': 0.0, 'viol': 0.0, 'cov': 0.0, 'nfe': 0.0, 'empty': 1.0}
+P5 0.05 CHART-bonf 100 {'risk': 0.0, 'viol': 0.0, 'cov': 0.0, 'nfe': 0.0, 'empty': 1.0}
+P5 0.05 CHART-bonf 250 {'risk': 0.0083, 'viol': 0.0, 'cov': 0.716, 'nfe': 10.8665, 'empty': 0.25}
+P5 0.05 CHART-bonf 500 {'risk': 0.0182, 'viol': 0.0033, 'cov': 0.9735, 'nfe': 9.383, 'empty': 0.0}
+P5 0.05 CHART-bonf 1000 {'risk': 0.0246, 'viol': 0.0033, 'cov': 0.9839, 'nfe': 6.8118, 'empty': 0.0}
+P5 0.05 TRM+Q-LTT 0 {'risk': 0.0447, 'viol': 0.2233, 'cov': 0.9473, 'nfe': 6.0, 'empty': 0.0}
+P5 0.05 TRM+Q-LTT 50 {'risk': 0.0, 'viol': 0.0, 'cov': 0.0, 'nfe': 0.0, 'empty': 1.0}
+P5 0.05 TRM+Q-LTT 100 {'risk': 0.0091, 'viol': 0.0133, 'cov': 0.3786, 'nfe': 2.76, 'empty': 0.54}
+P5 0.05 TRM+Q-LTT 250 {'risk': 0.0204, 'viol': 0.0567, 'cov': 0.6571, 'nfe': 4.68, 'empty': 0.22}
+P5 0.05 TRM+Q-LTT 500 {'risk': 0.0283, 'viol': 0.0867, 'cov': 0.7694, 'nfe': 5.04, 'empty': 0.16}
+P5 0.05 TRM+Q-LTT 1000 {'risk': 0.0305, 'viol': 0.11, 'cov': 0.7469, 'nfe': 4.8, 'empty': 0.2}
+P5 0.05 PTRM+Q-LTT 0 {'risk': 0.0335, 'viol': 0.07, 'cov': 0.816, 'nfe': 83.52, 'empty': 0.13}
+P5 0.05 PTRM+Q-LTT 50 {'risk': 0.0, 'viol': 0.0, 'cov': 0.0, 'nfe': 0.0, 'empty': 1.0}
+P5 0.05 PTRM+Q-LTT 100 {'risk': 0.0063, 'viol': 0.0, 'cov': 0.297, 'nfe': 33.6, 'empty': 0.65}
+P5 0.05 PTRM+Q-LTT 250 {'risk': 0.0121, 'viol': 0.01, 'cov': 0.4757, 'nfe': 55.36, 'empty': 0.4233}
+P5 0.05 PTRM+Q-LTT 500 {'risk': 0.0218, 'viol': 0.02, 'cov': 0.6782, 'nfe': 71.68, 'empty': 0.2533}
+P5 0.05 PTRM+Q-LTT 1000 {'risk': 0.035, 'viol': 0.03, 'cov': 0.9749, 'nfe': 95.36, 'empty': 0.0067}
+P5 0.1 CHART 0 {'risk': 0.037, 'viol': 0.0, 'cov': 1.0, 'nfe': 2.2366, 'empty': 0.0}
+P5 0.1 CHART 50 {'risk': 0.0109, 'viol': 0.0, 'cov': 0.365, 'nfe': 2.1459, 'empty': 0.63}
+P5 0.1 CHART 100 {'risk': 0.0285, 'viol': 0.0, 'cov': 0.8289, 'nfe': 3.2171, 'empty': 0.1667}
+P5 0.1 CHART 250 {'risk': 0.0368, 'viol': 0.0, 'cov': 0.9928, 'nfe': 2.5197, 'empty': 0.0067}
+P5 0.1 CHART 500 {'risk': 0.0369, 'viol': 0.0, 'cov': 1.0, 'nfe': 2.2371, 'empty': 0.0}
+P5 0.1 CHART 1000 {'risk': 0.0362, 'viol': 0.0, 'cov': 1.0, 'nfe': 2.2243, 'empty': 0.0}
+P5 0.1 CHART-bonf 0 {'risk': 0.037, 'viol': 0.0, 'cov': 1.0, 'nfe': 2.2343, 'empty': 0.0}
+P5 0.1 CHART-bonf 50 {'risk': 0.0, 'viol': 0.0, 'cov': 0.0, 'nfe': 0.0, 'empty': 1.0}
+P5 0.1 CHART-bonf 100 {'risk': 0.0107, 'viol': 0.0, 'cov': 0.7036, 'nfe': 9.8219, 'empty': 0.2667}
+P5 0.1 CHART-bonf 250 {'risk': 0.0324, 'viol': 0.0, 'cov': 0.9935, 'nfe': 4.6142, 'empty': 0.0}
+P5 0.1 CHART-bonf 500 {'risk': 0.0365, 'viol': 0.0, 'cov': 1.0, 'nfe': 2.2314, 'empty': 0.0}
+P5 0.1 CHART-bonf 1000 {'risk': 0.0362, 'viol': 0.0, 'cov': 1.0, 'nfe': 2.225, 'empty': 0.0}
+P5 0.1 TRM+Q-LTT 0 {'risk': 0.0536, 'viol': 0.0, 'cov': 0.7182, 'nfe': 4.36, 'empty': 0.2733}
+P5 0.1 TRM+Q-LTT 50 {'risk': 0.014, 'viol': 0.0, 'cov': 0.4606, 'nfe': 3.18, 'empty': 0.47}
+P5 0.1 TRM+Q-LTT 100 {'risk': 0.0315, 'viol': 0.0, 'cov': 0.6398, 'nfe': 4.14, 'empty': 0.31}
+P5 0.1 TRM+Q-LTT 250 {'risk': 0.0503, 'viol': 0.0, 'cov': 0.8038, 'nfe': 4.96, 'empty': 0.1733}
+P5 0.1 TRM+Q-LTT 500 {'risk': 0.0562, 'viol': 0.0, 'cov': 0.7812, 'nfe': 4.76, 'empty': 0.2067}
+P5 0.1 TRM+Q-LTT 1000 {'risk': 0.0694, 'viol': 0.0, 'cov': 0.9417, 'nfe': 5.72, 'empty': 0.0467}
+P5 0.1 PTRM+Q-LTT 0 {'risk': 0.0396, 'viol': 0.0, 'cov': 0.8306, 'nfe': 88.64, 'empty': 0.0767}
+P5 0.1 PTRM+Q-LTT 50 {'risk': 0.01, 'viol': 0.0, 'cov': 0.4319, 'nfe': 47.04, 'empty': 0.51}
+P5 0.1 PTRM+Q-LTT 100 {'risk': 0.0209, 'viol': 0.0, 'cov': 0.621, 'nfe': 66.24, 'empty': 0.31}
+P5 0.1 PTRM+Q-LTT 250 {'risk': 0.029, 'viol': 0.0, 'cov': 0.6812, 'nfe': 67.52, 'empty': 0.2967}
+P5 0.1 PTRM+Q-LTT 500 {'risk': 0.0431, 'viol': 0.0, 'cov': 0.943, 'nfe': 90.88, 'empty': 0.0533}
+P5 0.1 PTRM+Q-LTT 1000 {'risk': 0.0283, 'viol': 0.0, 'cov': 0.6085, 'nfe': 58.56, 'empty': 0.39}
+saved 4322.867076873779

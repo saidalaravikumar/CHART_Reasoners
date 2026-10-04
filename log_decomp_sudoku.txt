@@ -1,0 +1,25 @@
+families pool_sudoku_main.npz 246.15789318084717
+families pool_sudoku_fresh.npz 495.4056375026703
+0.01 PTRM fixed K                     risk 1.25 viol 100.0 cov 100.0 nfe 96.0 empty 0.00
+0.01 PTRM + Q-head + LTT              risk 0.39 viol 2.7 cov 64.7 nfe 66.2 empty 0.31
+0.01 PTRM + majority + LTT            risk 0.25 viol 0.7 cov 76.7 nfe 35.0 empty 0.19
+0.01 TRM + halt + LTT                 risk 0.26 viol 2.7 cov 21.1 nfe 1.3 empty 0.62
+0.01 PTRM + halt + LTT                risk 0.24 viol 0.7 cov 20.3 nfe 1.3 empty 0.62
+0.01 PTRM + halt + majority + LTT     risk 0.33 viol 0.0 cov 77.7 nfe 27.5 empty 0.19
+0.01 e-process, no halting (T=16)     risk 0.37 viol 1.7 cov 72.8 nfe 58.4 empty 0.23
+0.01 e-process, fixed depth T=4       risk 0.43 viol 0.0 cov 90.1 nfe 14.9 empty 0.05
+0.01 CHART without LTT (plug-in)      risk 0.86 viol 16.7 cov 97.4 nfe 13.3 empty 0.00
+0.01 CHART                            risk 0.36 viol 1.0 cov 79.1 nfe 17.5 empty 0.17
+0.01 CHART, Bonferroni                risk 0.27 viol 0.0 cov 94.1 nfe 24.2 empty 0.00
+0.02 PTRM fixed K                     risk 1.25 viol 0.0 cov 100.0 nfe 96.0 empty 0.00
+0.02 PTRM + Q-head + LTT              risk 0.91 viol 3.7 cov 95.4 nfe 96.0 empty 0.00
+0.02 PTRM + majority + LTT            risk 0.84 viol 0.0 cov 96.0 nfe 21.2 empty 0.01
+0.02 TRM + halt + LTT                 risk 1.24 viol 5.7 cov 85.1 nfe 3.9 empty 0.04
+0.02 PTRM + halt + LTT                risk 1.03 viol 1.3 cov 74.6 nfe 3.8 empty 0.03
+0.02 PTRM + halt + majority + LTT     risk 1.09 viol 0.3 cov 97.5 nfe 15.9 empty 0.00
+0.02 e-process, no halting (T=16)     risk 1.01 viol 0.0 cov 97.3 nfe 40.5 empty 0.00
+0.02 e-process, fixed depth T=4       risk 0.61 viol 0.0 cov 95.2 nfe 11.4 empty 0.00
+0.02 CHART without LTT (plug-in)      risk 1.07 viol 8.0 cov 97.6 nfe 11.6 empty 0.00
+0.02 CHART                            risk 0.90 viol 0.0 cov 97.4 nfe 12.2 empty 0.00
+0.02 CHART, Bonferroni                risk 0.74 viol 0.0 cov 97.2 nfe 15.7 empty 0.00
+saved 736.435711145401
